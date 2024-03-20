@@ -336,4 +336,8 @@ window.requestAnimFrame = (function() {
   document.getElementById("myButton").addEventListener("click", function() {
     window.location.href = "carta.html";
   });
+
+ /*  document.getElementById("myButton").addEventListener("click", function() {
+  // Acciones a realizar cuando se hace clic en la imagen (puedes agregar tus propias acciones aquí)
+  console.log("Se hizo clic en la imagen."); */
   

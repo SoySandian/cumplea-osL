@@ -6,13 +6,17 @@ html, body, .container {
 }
 
 body {
-  background: rgb(19, 224, 180);
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
-  background-image: radial-gradient(circle at center bottom, #e9b64b, #c76075 15%, #0d0d4b 75%, #190e14 90%);
+  /* background-image: linear-gradient(to bottom, #190e14, #0d0d4b 30%, #c76075 80%, #e9b64b 95%);
+  background-image: radial-gradient(circle at center bottom, #e9b64b, #c76075 15%, #0d0d4b 75%, #190e14 90%); */
+  background-image: url(img/orion2.0.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-div#beach,
+
+/* div#beach,
 canvas#canvas {
   position: absolute;
   top: 0;
@@ -22,12 +26,12 @@ canvas#canvas {
 }
 
 div#beach {
-  background-image: url(cumpleaños.jpg);
-  /* background-size: cover; */
-  background-position: bottom right;
-  background-size: 1700px;
+  background-image: url(img/orion.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-}
+} */
+
 
 div#video {
   position: absolute;
@@ -70,7 +74,7 @@ div#sea {
   left: 0px;
   bottom: 0px;
   top: 0px;
-  background-color: rgb(26, 207, 168);
+  background: #bde0fe;
   transition: background-color 0.5s ease;
 }
 
@@ -84,7 +88,8 @@ div#sea {
   z-index: 10;
 }
 .giftbox > div {
-  background: #eed603;
+  background-color: #cdb4db;
+  /* background: #eed603; */
   position: absolute;
 }
 .giftbox > div:after, .giftbox > div:before {
@@ -94,9 +99,9 @@ div#sea {
 }
 .giftbox:after {
   position: absolute;
-  color: #fff;
+  color: #fff; 
   width: 100%;
-  content: "Has Click Aquí!";
+  content: "Abreme haciendo click ;)";
   left: 0;
   bottom: 0;
   font-size: 24px;
@@ -117,7 +122,8 @@ div#sea {
   left: 50%;
   width: 50px;
   transform: translateX(-50%);
-  background: #fd6d6d;
+  background: #ffc8dd;
+  /* background: #fd6d6d; */
 }
 .giftbox .cover > div {
   position: absolute;
@@ -134,7 +140,8 @@ div#sea {
   width: 100%;
   height: 100%;
   content: "";
-  box-shadow: inset 0 0 0 15px #fd726d;
+  box-shadow: inset 0 0 0 15px #ffc8dd;
+  /* box-shadow: inset 0 0 0 15px #fd726d; */
   border-radius: 30px;
   transform-origin: 50% 100%;
 }
@@ -155,7 +162,8 @@ div#sea {
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #fdc56d;
+  background: #ffc8dd;
+  /* background: #fdc56d; */
 }
 .giftbox .box:after {
   width: 100%;
@@ -382,7 +390,7 @@ div#sea {
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
   }
 }
-.moon {
+/* .moon {
   position: absolute;
   top: 10%;
   right: 200px;
@@ -424,7 +432,7 @@ div#sea {
   box-shadow: inset -1.5px 0.75px 0 0 #aaa;
   top: 60px;
   right: 25px;
-}
+} */
 
 @media (min-width: 1000px) {
   .icons {
@@ -460,7 +468,7 @@ div#sea {
   }
 }
 
-#myButton {
+/* #myButton {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -471,4 +479,16 @@ div#sea {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+} */
+
+
+#myButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  width: 200px;
 }
+
+
