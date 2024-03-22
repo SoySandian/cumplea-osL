@@ -75,6 +75,8 @@ div#sea {
   bottom: 0px;
   top: 0px;
   background: #bde0fe;
+  background-size: cover;
+  background-attachment: fixed;
   transition: background-color 0.5s ease;
 }
 

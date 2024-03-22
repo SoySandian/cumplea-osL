@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="es" >
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title> Happy birthday Card</title>
+  <title>Happy birthday Card</title>
   <link rel="stylesheet" href="estilocarta.css">
-
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var card = document.querySelector('.card');
+      card.addEventListener('click', function () {
+        this.classList.toggle('open');
+      });
+      card.addEventListener('touchstart', function () {
+        this.classList.toggle('open');
+      });
+    });
+  </script>
 </head>
 <body>
-
-<div class="card">
-		<div class="imgBox">
-			<div class="bark"></div>
-			<!-- <img src="https://image.ibb.co/fYzTrb/lastofus.jpg"> -->
-            <img src="img/nuevaportada.jpeg" alt="">
-		</div>
-		<div class="details">
-			<h4 class="color1">HOLI</h2>
-			<h4 class="color2 margin">FELIZ CUMPLEAÑOS</h3>
-			<p>A ti que cumples años hooooy</p>
+  <div class="card">
+    <div class="imgBox">
+      <div class="bark"></div>
+      <img src="img/nuevaportada.jpeg">
+    </div>
+    <div class="details">
+      <h4 class="color1">HOLI</h4>
+      <h4 class="color2 margin">FELIZ CUMPLEAÑOS</h4>
+	  <p>A ti que cumples años hooooy</p>
 			<p>Hace 21 años naciste ¿como se siente? </p>
 			<p>Ya cumpliste tu primer año de bebé adulto</p>
 			<p>Cada vez mas viejita</p>
@@ -29,8 +37,7 @@
             <p>En serio, te quiero mucho</p>
             <p>Disfruta tu día</p>
 			<p class="text-right">Atte: Jimena :D</p>
-		</div>
-	</div>
-
+    </div>
+  </div>
 </body>
 </html>
