@@ -74,7 +74,7 @@ div#sea {
   left: 0px;
   bottom: 0px;
   top: 0px;
-  background: #bde0fe;
+  background: #000000;
   background-size: cover;
   background-attachment: fixed;
   transition: background-color 0.5s ease;
@@ -90,7 +90,7 @@ div#sea {
   z-index: 10;
 }
 .giftbox > div {
-  background-color: #cdb4db;
+  background-color: #ffffff;
   /* background: #eed603; */
   position: absolute;
 }
@@ -101,7 +101,7 @@ div#sea {
 }
 .giftbox:after {
   position: absolute;
-  color: #fff; 
+  color: #14213d; 
   width: 100%;
   content: "Abreme haciendo click ;)";
   left: 0;
@@ -124,7 +124,7 @@ div#sea {
   left: 50%;
   width: 50px;
   transform: translateX(-50%);
-  background: #ffc8dd;
+  background: #c8b6ff;
   /* background: #fd6d6d; */
 }
 .giftbox .cover > div {
@@ -142,7 +142,7 @@ div#sea {
   width: 100%;
   height: 100%;
   content: "";
-  box-shadow: inset 0 0 0 15px #ffc8dd;
+  box-shadow: inset 0 0 0 15px #c8b6ff;
   /* box-shadow: inset 0 0 0 15px #fd726d; */
   border-radius: 30px;
   transform-origin: 50% 100%;
@@ -164,7 +164,7 @@ div#sea {
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #ffc8dd;
+  background: #c8b6ff;
   /* background: #fdc56d; */
 }
 .giftbox .box:after {
